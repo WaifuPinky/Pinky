@@ -1,3 +1,10 @@
 body { 
     background-color: lightpink;
+    border: 2px dotted black;
+}
+.textocentrado { 
+    text-align: center;
+}
+#nombreid {
+    text-align: center;
 }
