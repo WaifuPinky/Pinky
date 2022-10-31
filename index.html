@@ -7,31 +7,63 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>   
 <body>
-    <h1 class="textocentrado"> Waifupinky</h1>   
-        <p class="textocentrado"> Dibujitos cute </p>   
+    
+    <div class="container">
+        <div class="navbar">
+            <h1 class="textocentrado"> Waifupinky</h1>   
+            <p class="textocentrado"> Dibujitos cute </p>   
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li><a href="pie">Ir a pie de pagina</a></li>
+                </ul>
+        </div>
 
-    <Fieldset>
+    </div>
+
+    <Fieldset class="form-register">
             <legend><a href="https://www.crunchyroll.com/es/one-piece/episode-523-a-surprising-fact-the-man-who-guarded-the-sunny-657933">ONE PIECE ES LO MEJOR</a></legend>
-    <BR> 
-     <form action="" method=""></form>
-            <label for="nombre">Nombre: </label>
-            <input type="text" id="nombre" name="nombre" />
-    <br>
-    <div>¿Le gusta one piece?</div>
-        <div>Si</div>
-        <input type="radio" name="pregunta 1" value="Si">
-        <div>No</div>
-        <input type="radio" name="pregunta 1" value="No">
-    <br>
-    <label for="textolargo">Escriba aqui porque one piece es lo mejor: </label>
-            <textarea name="textolargo" id="textolargo" cols="20" rows="5">Escribir</textarea>
+            <section>  
+                <h2>¿Como podemos ayudarte? </h2> 
+                <h4>Una vez recibido, en el transcurso de los próximos días, nos comunicaremos con vos por vía telefónica.</h4>
+                <input class="formulario1" type="text" id="nombre" name="nombre" placeholder="Nombre:"/>
+                <input class="formulario1" type="text" id="apellido" name="apellido" placeholder="Apellido:" />
+                <input class="formulario1" type="text" id="email" name="email" placeholder="Email:"/>
+                <select class="formulario2" type="text" name="opciones1" id="pais" placeholder="pais">
+                    <option value="1">Argentina</option>
+                    <option value="2">Estados unidos</option>
+                    <option value="3">Brasil</option>
+                </select>
+                <select class="formulario2" type="text"  name="" id="">
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">CABA</option>
+                    <option value="3">La Pampa</option>
+                </select>
+                <div>¿Le gusta one piece?</div>
+                <div>Si</div><input type="radio" name="pregunta 1" value="Si">
+                <div>No</div><input type="radio" name="pregunta 1" value="No" placeholder="N">
+                <br>
+        <textarea name="textolargo" id="textolargo" cols="20" rows="5">Escriba aqui su mensaje:</textarea>
             <br>
-            <input type="submit" value="Enviar Formulario"/>
-    <br>     
+            <input class="submit" type="submit" value="Enviar Formulario"/>
+        <br>     
+        </section>
     </Fieldset>
-    <section id="nombreid"><img src="./images/miss .jpg" alt="Miss del lol."> </section>
-</body>
 
+    <section id="nombreid"><img src="./imaes/miss.jpg" alt=""> </section>
+</body>
+<footer id="pie">
+    <ul>
+        <li>Terminos de uso</li>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+    </ul>
+    Waifupinky
+</footer>
 </html>
