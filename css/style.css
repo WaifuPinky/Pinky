@@ -1,10 +1,20 @@
 body { 
     background-color: lightpink;
+    background-repeat: repeat;
     border: 2px dotted black;
+}
+body h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: 5px 5px 3px 3px;
 }
 .textocentrado { 
     text-align: center;
 }
 #nombreid {
     text-align: center;
+}
+
+/*flexbox*/
+.cajas{
+    
 }
